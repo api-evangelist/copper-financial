@@ -64,5 +64,150 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Copper Financial is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/copper-financial_stock/
+Copper Financial provides a CRM platform for service‑based businesses, offering tools to organize contacts, track deals, manage projects, automate workflows, and generate custom reports. The solution integrates with popular apps such as Google Workspace and supports mobile access, aiming to streamline sales and customer relationship processes for agencies, consulting firms, and other service industries.
+
+**Areas:** Company · CRM · Software-as-a-Service · Sales · Marketing
+
+## Copper Financial on APIs.io
+
+Everything profiled for Copper Financial is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/copper-financial/](https://apis.io/providers/copper-financial/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Copper Financial Account API](https://apis.io/apis/copper-financial/copper-financial-account-api/) — Account and user information operations
+- [Copper Financial Activities API](https://apis.io/apis/copper-financial/copper-financial-activities-api/) — Activity tracking operations
+- [Copper Financial Companies API](https://apis.io/apis/copper-financial/copper-financial-companies-api/) — Company management operations
+- [Copper Financial Custom Fields API](https://apis.io/apis/copper-financial/copper-financial-custom-fields-api/) — Custom field definitions and operations
+- [Copper Financial Field Layouts API](https://apis.io/apis/copper-financial/copper-financial-field-layouts-api/) — Field layout configuration for entity types
+- [Copper Financial Leads API](https://apis.io/apis/copper-financial/copper-financial-leads-api/) — Lead management operations
+- [Copper Financial Opportunities API](https://apis.io/apis/copper-financial/copper-financial-opportunities-api/) — Sales opportunity operations
+- [Copper Financial People API](https://apis.io/apis/copper-financial/copper-financial-people-api/) — People/contact management operations
+- [Copper Financial Related Items API](https://apis.io/apis/copper-financial/copper-financial-related-items-api/) — Related items and relationship operations
+- [Copper Financial Tags API](https://apis.io/apis/copper-financial/copper-financial-tags-api/) — Tag management operations
+- [Copper Financial Tasks API](https://apis.io/apis/copper-financial/copper-financial-tasks-api/) — Task management operations
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Copper Financial Webhooks](https://apis.io/asyncapis/copper-financial/copper-financial-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Copper Financial Agentic Access](https://apis.io/agentic-access/copper-financial/copper-financial-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Activity](https://apis.io/schemas/copper-financial/copper-financial-activity/)
+- [Company](https://apis.io/schemas/copper-financial/copper-financial-company/)
+- [Lead](https://apis.io/schemas/copper-financial/copper-financial-lead/)
+- [Opportunity](https://apis.io/schemas/copper-financial/copper-financial-opportunity/)
+- [Person](https://apis.io/schemas/copper-financial/copper-financial-person/)
+- [Task](https://apis.io/schemas/copper-financial/copper-financial-task/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Copper Financial Context](https://apis.io/jsonld/copper-financial/copper-financial-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Copper Financial API Rules](https://apis.io/rules/copper-financial/copper-financial-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Copper Financial Authentication](https://apis.io/security/copper-financial/copper-financial-authentication/)
+- [Copper Financial Domain Security](https://apis.io/security/copper-financial/copper-financial-domain-security/)
+- [Copper Financial Trust Center](https://apis.io/security/copper-financial/copper-financial-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Copper Financial Plans Pricing](https://apis.io/plans/copper-financial/copper-financial-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.copper.com/)
+- [Documentation](https://developer.copper.com/)
+- [Getting started](https://developer.copper.com/introduction/oauth/quickstart.html)
+- [API reference](https://developer.copper.com/)
+- [Pricing](https://www.copper.com/pricing)
+- [Sign up](https://www.copper.com/signup)
+- [Support](https://support.copper.com/en/)
+- [Blog](https://www.copper.com/resources)
+- [Security](https://www.copper.com/security)
+- [Compliance](https://trust.copper.com/)
+- [Terms of service](https://www.copper.com/terms)
+- [Privacy policy](https://www.copper.com/privacy)
+- [Status](https://status.copper.com/)
+
+## API Evangelist rating
+
+**Kin Score 64.4** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 73.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 49.4 |
+| Access clarity | 92.1 |
+
+**Agent readiness 33.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/copper-financial/](https://apis.io/providers/copper-financial/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Copper Financial: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/copper-financial/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
